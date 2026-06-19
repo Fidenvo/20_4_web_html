@@ -1,1 +1,114 @@
+<!-- MINI-PROJECT: Mini-project 4: Gallery & Learning Table
+Yêu cầu: Tạo website nhỏ có ảnh minh họa, menu liên kết, danh sách nội dung học và bảng lịch/kế hoạch; repo có README và Pages.
+Yêu cầu bắt buộc bổ sung: Bắt buộc bổ sung ảnh chụp thiết kế UI các page, phân vùng file HTML theo ảnh thiết kế, tổ chức dự án bài bản trên GitHub cá nhân và bật GitHub Pages để mở khóa bài tiếp theo.
 
+Cấu trúc repo đề xuất:
+- index.html
+- css/style.css
+- js/script.js
+- assets/
+- README.md
+
+TODO: Tự viết website hoàn chỉnh, không nộp một file rỗng hoặc code copy sẵn.
+-->
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mini-project 4: Gallery & Learning Table</title>
+</head>
+<body>
+  <!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery & Learning Table</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Đầu trang -->
+  <header>
+    <h1>Gallery & Learning Table</h1>
+    <nav>
+      <a href="#gallery">Gallery</a>
+      <a href="#noi-dung">Nội dung học</a>
+      <a href="#lich-hoc">Lịch học</a>
+    </nav>
+  </header>
+
+  <!-- Phần gallery -->
+  <main>
+
+    <section id="gallery">
+      <h2>Gallery</h2>
+      <div class="gallery">
+        <img src="images/banner.jpg" alt="Ảnh banner" width="200">
+        <img src="images/photo.jpg" alt="Ảnh minh họa" width="200">
+        <img src="images/cover.jpg" alt="Ảnh bìa" width="200">
+      </div>
+    </section>
+
+    <!-- Phần nội dung học -->
+    <section id="noi-dung">
+      <h2>Nội dung học</h2>
+      <ul>
+        <li>HTML cơ bản
+          <ul>
+            <li>Cấu trúc trang</li>
+            <li>Thẻ semantic</li>
+          </ul>
+        </li>
+        <li>CSS styling
+          <ul>
+            <li>Selector</li>
+            <li>Box model</li>
+          </ul>
+        </li>
+        <li>Python xử lý file</li>
+        <li>Git / GitHub</li>
+      </ul>
+    </section>
+
+    <!-- Phần lịch học -->
+    <section id="lich-hoc">
+      <h2>Lịch học</h2>
+      <table border="1">
+        <caption>Lịch học tuần này</caption>
+        <tr>
+          <th>Thứ</th>
+          <th>Môn học</th>
+          <th>Phòng</th>
+        </tr>
+        <tr>
+          <td>Thứ 2</td>
+          <td>Thiết kế Web</td>
+          <td>P.201</td>
+        </tr>
+        <tr>
+          <td>Thứ 4</td>
+          <td>Lập trình Python</td>
+          <td>P.305</td>
+        </tr>
+        <tr>
+          <td>Thứ 6</td>
+          <td>Cơ sở dữ liệu</td>
+          <td>P.102</td>
+        </tr>
+      </table>
+    </section>
+
+  </main>
+
+  <!-- Chân trang -->
+  <footer>
+    <p>© 2025 Vo Thanh Sang — Mini-project 4</p>
+  </footer>
+
+</body>
+</html>
+</body>
+</html>
